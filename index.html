@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Style Sheet-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Cronômetro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="telaContador">
+            <p id="telaContador"> <span id="horas">00</span> : <span id="minutos">00</span> : <span id="segundos">00</span> : <span id="milisegundos">000</span> </p>
+        </div>
+        <div class="buttons">
+            <button id="startContador" onclick="comecar()">Start</button>
+            <button id="pauseContador" onclick="pause()">Pausar</button>
+            <button id="resetContador" onclick="reset()">Reset</button>
+        </div>
+    </div>
+    <!--Script-->
+    <script src="js/script.js"></script>
+</body>
+</html>
